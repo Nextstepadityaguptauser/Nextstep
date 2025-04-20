@@ -1,0 +1,109 @@
+/* Reset some basic styles */
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  body {
+	background-color: #f8f9fa;
+	color: #333;
+	line-height: 1.6;
+	padding: 20px;
+  }
+  
+  /* Header styling */
+  header {
+	text-align: center;
+	padding: 20px 0;
+	background-color: #ffffff;
+	border-bottom: 2px solid #eee;
+	margin-bottom: 30px;
+  }
+  
+  .logo {
+	max-width: 120px;
+	height: auto;
+	margin-bottom: 10px;
+  }
+  
+  h1 {
+	font-size: 2rem;
+	color: #212529;
+  }
+  
+  header p {
+	font-size: 1rem;
+	color: #555;
+  }
+  
+  /* Features Section */
+  .features {
+	background-color: #ffffff;
+	padding: 20px;
+	border-radius: 10px;
+	margin-bottom: 30px;
+	box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+  }
+  
+  .features h2 {
+	margin-bottom: 15px;
+	color: #007BFF;
+  }
+  
+  .features ul {
+	list-style: none;
+	padding-left: 0;
+  }
+  
+  .features ul li {
+	padding: 10px 0;
+	border-bottom: 1px solid #eee;
+	font-size: 1rem;
+  }
+  
+  /* CTA Section */
+  .cta {
+	text-align: center;
+	background-color: #007BFF;
+	color: white;
+	padding: 30px 20px;
+	border-radius: 10px;
+  }
+  
+  .cta h2 {
+	margin-bottom: 10px;
+	font-size: 1.5rem;
+  }
+  
+  .cta p {
+	margin-bottom: 20px;
+  }
+  
+  .btn {
+	background-color: #fff;
+	color: #007BFF;
+	padding: 12px 25px;
+	text-decoration: none;
+	border-radius: 25px;
+	font-weight: bold;
+	border: 2px solid white;
+	transition: all 0.3s ease;
+  }
+  
+  .btn:hover {
+	background-color: #e9ecef;
+	color: #0056b3;
+	border-color: #e9ecef;
+  }
+  
+  /* Footer */
+  footer {
+	text-align: center;
+	padding: 15px;
+	margin-top: 30px;
+	font-size: 0.9rem;
+	color: #888;
+  }
+  
